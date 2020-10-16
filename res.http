@@ -1,0 +1,10 @@
+GET http://localhost:3028/todos
+###
+POST http://localhost:3028/todos
+Content-Type: application/json
+
+{
+    "name": "Make a lotus video",
+    "status": false
+}
+###
