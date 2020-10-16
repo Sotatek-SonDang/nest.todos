@@ -4,7 +4,17 @@ POST http://localhost:3028/todos
 Content-Type: application/json
 
 {
-    "name": "Make a lotus video",
+    "name": "Make a lotus video 2",
     "status": false
 }
 ###
+GET  http://localhost:3028/todos/5f87bd65de96831e446bff30
+###
+PUT http://localhost:3028/todos/5f896c01beaec563882d6767
+Content-Type: application/json
+
+{
+    "name": "Make a lotus video 4"
+}
+###
+DELETE http://localhost:3028/todos/5f87bd65de96831e446bff30
